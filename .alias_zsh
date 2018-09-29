@@ -11,6 +11,7 @@ alias zup="source $HOME/.zshrc"
 alias merge="xrdb -merge .Xresources"
 alias vga="lspci -k | grep -A 2 -E '(VGA|3D)'"
 alias tb="nc termbin.com 9999"
+alias iip="curl --max-time 10 -w '\n' http://ident.me"
 
 # share vbox В локальной машине mkdir vboxshare
 # в виртуалке uid={имя пользователя} git={группа}
@@ -123,12 +124,12 @@ mp3 () {
 }
 # mp3p https://www.youtube.com/watch?v=-F7A24f6gNc&list=RD-F7A24f6gNc
 mp3p () {
-	youtube-dl --ignore-errors -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o '~/Music/youtube/%(playlist)s/%(title)s.%(ext)s' "$1"
+	youtube-dl --ignore-errors -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o '~/Music/youtube/%(playlist)s/%(title)s.%(ext)s' "$1" && notify-send 'Youtube Download playlist'
 }
 
 alias porn="mpv 'http://www.pornhub.com/random'"
 
-alias mv="ncmpcpp -S visualizer"
+alias mvis="ncmpcpp -S visualizer"
 alias m="ncmpcpp"
 
 pf () {

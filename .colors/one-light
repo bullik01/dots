@@ -26,3 +26,12 @@
 ! Blanco
 *.color7:        #A0A1A7
 *.color15:       #FFFFFF
+
+! One Light
+! Property Name     BG       Border   Separator
+rofi.color-window:  #f0f0f1, #75444A57, #fafafa
+
+! Property Name     BG       FG       BG-alt   Head-BG  Head-FG
+rofi.color-normal:  #f0f0f1, #5a74ca, #f0f0f1, #5a74ca, #f0f0f1
+rofi.color-active:  #f0f0f1, #5a74ca, #f0f0f1, #5a74ca, #4078f2
+rofi.color-urgent:  #f0f0f1, #5a74ca, #f0f0f1, #5a74ca, #ca1243
