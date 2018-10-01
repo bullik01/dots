@@ -7,7 +7,7 @@
 # git.io custom url
 # curl -i https://git.io -F "url=https://github.com/creio" -F "code=YOUR_CUSTOM_NAME"
 
-alias zup="source $HOME/.zshrc"
+alias src="source $HOME/.zshrc"
 alias merge="xrdb -merge .Xresources"
 alias vga="lspci -k | grep -A 2 -E '(VGA|3D)'"
 alias tb="nc termbin.com 9999"
@@ -35,7 +35,7 @@ abuild () {
 }
 
 #alias neo="neofetch"
-alias neo="neofetch --w3m ~/.config/neofetch/ctl.png"
+alias neo="neofetch --w3m ~/.config/neofetch/neo.png"
 # alias neo="neofetch --w3m"
 
 # Погода, не только по городу, но и по месту. Нет привязки к регистру и языку.

@@ -48,7 +48,7 @@ URxvt.internalBorder: 15
 URxvt*transparent:false
 !URxvt*shading: 10
 URxvt*depth: 32
-URxvt.colorUL: #4682B4
+!URxvt.colorUL: #4682B4
 
 
 
