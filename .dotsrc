@@ -82,10 +82,6 @@ ROOT_PATHS=(
 "/etc/fstab"
 "/etc/pacman.conf"
 "/etc/sddm.conf"
-"/etc/oblogout.conf"
 "/etc/vconsole.conf"
 "/usr/share/sddm/themes/minimal"
-"/usr/share/themes/adeos-archlabs"
-"/usr/share/themes/adeos-branco"
-"/usr/share/themes/adeos-cores"
 )
