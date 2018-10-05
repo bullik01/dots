@@ -1,4 +1,5 @@
 .bin/stream
+.config/sublime-text-3/Packages/User/Gist.sublime-settings
 .gitconfig
 .gnupg
 .ssh

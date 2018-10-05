@@ -5,4 +5,6 @@ shell st
 [M#:0[M :0[M#:0[M 80[M#80[M 80[M#80[M 72[M#72[M 72[M#72[M"72[M#72[M!72[M#72
 cd wall
 open_with `
+cd .config/openbox/rc.xml
+cd .config/openbox/
 delete

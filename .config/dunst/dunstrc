@@ -1,23 +1,23 @@
 [global]
     monitor = 0
     follow = mouse
-    geometry = "320x5-15+30"
+    geometry = "320x5-30+30"
     indicate_hidden = yes
     shrink = no
     transparency = 0
     notification_height = 0
     separator_height = 2
-    padding = 10
-    horizontal_padding = 10
+    padding = 30
+    horizontal_padding = 30
     frame_width = 1
-    frame_color = "#232323"
+    frame_color = "#383c4a"
     separator_color = frame
     sort = yes
     idle_threshold = 120
-    font = Clear Sans Medium 11
+    font = Roboto Mono Medium 9
     line_height = 0
     markup = full
-    format = "<span foreground='#F3F4F5'><b>%s %p</b></span>\n%b"
+    format = "<span foreground='#b3bdcb'>%s %p</span>\n%b"
     alignment = left
     show_age_threshold = 60
     word_wrap = yes
@@ -29,6 +29,7 @@
     icon_position = left
     max_icon_size = 32
     icon_path = /usr/share/icons/Papirus/16x16/status/:/usr/share/icons/Papirus/16x16/devices/:/usr/share/icons/Papirus/16x16/apps/
+    # icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
     sticky_history = yes
     history_length = 20
     always_run_script = true
@@ -60,5 +61,5 @@
     background = "#D64E4E"
     foreground = "#F0E0E0"
     frame_color = "#D64E4E"
-    timeout = 0
+    timeout = 10
     icon = /usr/share/icons/Papirus/22x22/status/dialog-error.svg

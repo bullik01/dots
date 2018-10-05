@@ -8,14 +8,19 @@ Xft.lcdfilter: lcddefault
 
 
 
-#include ".colors/color"
+#include ".colors/cntw"
 
 
-!URxvt.font: xft:Roboto Mono:size=11
-URxvt.font: xft:Roboto Mono Medium:size=11
-!URxvt.font: xft:RobotoMono Nerd Font Mono:size=11
-!URxvt.letterSpace: -1
+!urxvt.font: -misc-tamsyn-medium-r-normal--15-108-100-100-c-80-iso8859-1
+!urxvt.boldFont: -misc-tamsyn-bold-r-normal--15-108-100-100-c-80-iso8859-1
 
+!URxvt.font: xft:Roboto Mono:size=10
+URxvt.font: xft:Roboto Mono Medium:size=9:antialias=true:autohint=false
+!URxvt.font: xft:RobotoMono Nerd Font Mono:size=10:antialias=true:autohint=false
+!URxvt.font: xft:Ubuntu Mono Nerd Font Mono:size=11:antialias=true
+URxvt.letterSpace: 0
+
+URxvt.termname: xterm-256color
 URxvt.iconFile: /usr/share/icons/Papirus/48x48/apps/urxvt.svg
 
 URxvt.pointerBlank: true
@@ -63,7 +68,7 @@ rofi.opacity:                        100
 rofi.width:                          25
 rofi.lines:                          7
 rofi.columns:                        1
-rofi.font:                           ClearSansMedium 13
+rofi.font:                           ClearSansMedium 10
 rofi.drun-icon-theme:                Papirus
 !rofi.show-icons:                    true
 rofi.bw:                             10

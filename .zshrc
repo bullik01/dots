@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 
-# if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-#   exec startx
-# fi
+if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
+fi
 
 ZSH=/usr/share/oh-my-zsh/
 
@@ -14,8 +14,9 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
+  web-search
 )
-export PATH=$HOME/.bin:/usr/local/bin:$PATH
+export PATH=$HOME/.bin:$HOME/.bin/popup:/usr/local/bin:$PATH
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
@@ -33,7 +34,8 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # 	source /etc/profile.d/vte.sh
 # fi
 
-export TERM="rxvt-unicode-256color"
+export TERM="xterm-256color"
+# export TERM="rxvt-unicode-256color"
 export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'subl3'; else echo 'nano'; fi)"
 export SSH_KEY_PATH="~/.ssh/dsa_id"
 

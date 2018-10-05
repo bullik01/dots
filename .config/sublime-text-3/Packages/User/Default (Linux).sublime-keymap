@@ -1,0 +1,11 @@
+[
+	{ "keys": ["ctrl+r"], "command": "reindent" },
+	{ "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_menu" },
+
+	{ "keys": ["ctrl+k", "ctrl+i"], "command": "gist" },
+	{ "keys": ["ctrl+k", "ctrl+p"], "command": "gist_private" },
+	{ "keys": ["ctrl+k", "ctrl+s"], "command": "gist_update_file" },
+	{ "keys": ["ctrl+k", "ctrl+l"], "command": "gist_list" },
+	{ "keys": ["ctrl+k", "ctrl+["], "command": "insert_gist_list" },
+	{ "keys": ["ctrl+k", "ctrl+]"], "command": "gist_add_file" }
+]

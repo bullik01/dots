@@ -5,7 +5,6 @@
 border="2"
 color="255 255 255 0"
 format="%w %h %x %y"
-dir="/usr/scripts"
 
 
 # exec
