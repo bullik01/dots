@@ -11,9 +11,6 @@ Xft.lcdfilter: lcddefault
 #include ".colors/cntw"
 
 
-!urxvt.font: -misc-tamsyn-medium-r-normal--15-108-100-100-c-80-iso8859-1
-!urxvt.boldFont: -misc-tamsyn-bold-r-normal--15-108-100-100-c-80-iso8859-1
-
 !URxvt.font: xft:Roboto Mono:size=10
 URxvt.font: xft:Roboto Mono Medium:size=9:antialias=true:autohint=false
 !URxvt.font: xft:RobotoMono Nerd Font Mono:size=10:antialias=true:autohint=false

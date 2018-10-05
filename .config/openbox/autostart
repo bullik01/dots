@@ -1,7 +1,7 @@
 tint2 -c ~/.config/tint2/my.tint2rc &
 tint2 -c ~/.config/tint2/tray.tint2rc &
-# feh --bg-fill ~/.wall/wallhaven-666357.jpg &
-hsetroot -solid "#383c4a" &
+feh --bg-fill ~/.wall/wl2.jpg &
+# hsetroot -solid "#383c4a" &
 compton -b &
 # compton -b --paint-on-overlay --unredir-if-possible --backend xr_glx_hybrid --vsync drm --glx-swap-method -1 --glx-no-stencil &
 numlockx &
@@ -18,4 +18,4 @@ thunar --daemon &
 (sleep 2; volumeicon) &
 (sleep 3; megasync) &
 # (sleep 2; caffeine) &
-#sh ~/.bin/cookie &
+sh ~/.bin/cookie &

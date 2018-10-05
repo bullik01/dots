@@ -55,6 +55,7 @@ USER_PATHS=(
 ".config/volumeicon"
 ".config/xfce4"
 ".config/youtube-viewer"
+".config/chromium-flags.conf"
 ".config/compton.conf"
 ".config/cntw.html"
 ".config/kdenliverc"

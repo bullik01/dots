@@ -272,12 +272,12 @@
         <command>openbox --reconfigure</command>
       </action>
     </keybind>
-    <keybind key="C-A-Left">
+    <keybind key="W-C-Left">
       <action name="SendToDesktop">
         <to>Previous</to>
       </action>
     </keybind>
-    <keybind key="C-A-Right">
+    <keybind key="W-C-Right">
       <action name="SendToDesktop">
         <to>Next</to>
       </action>
