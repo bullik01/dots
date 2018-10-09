@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # repo https address for cloning & pushing (empty for local backup)
 REPO="https://github.com/creio/dots"
 
