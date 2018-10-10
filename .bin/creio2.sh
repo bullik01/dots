@@ -104,5 +104,3 @@ systemctl enable NetworkManager
 # systemctl start NetworkManager
 
 echo "System Setup Complete"
-
-rm creio*.sh
