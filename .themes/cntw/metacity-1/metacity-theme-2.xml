@@ -21,9 +21,9 @@
 <!-- window button colors -->
 
 <!-- close -->
-<constant name="C_button_close_bg_focused" value="#fb924c" />
-<constant name="C_button_close_bg_hover" value="#ffa25c" />
-<constant name="C_button_close_bg_active" value="#eb823c" />
+<constant name="C_button_close_bg_focused" value="#b71232" />
+<constant name="C_button_close_bg_hover" value="#c72242" />
+<constant name="C_button_close_bg_active" value="#a70222" />
 
 <constant name="C_icon_close_bg" value="#25272a" />
 
@@ -31,7 +31,7 @@
 <constant name="C_button_bg_hover" value="#b3bdcb" />
 <constant name="C_button_bg_active" value="#5A74CA" />
 
-<constant name="C_button_border_hover" value="#222326" />
+<constant name="C_button_border_hover" value="#222427" />
 
 <constant name="C_icon_bg_focused" value="#b3bdcb" />
 <constant name="C_icon_bg_unfocused" value="#8f97a2" />

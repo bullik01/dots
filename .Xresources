@@ -10,13 +10,15 @@ Xft.lcdfilter: lcddefault
 
 #include ".colors/cntw"
 
+!URxvt.font: xft:Iosevka Term:size=9:antialias=true
 
-URxvt.font: -misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1
-URxvt.boldFont: -misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1
+!URxvt.font: -misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1
+!URxvt.boldFont: -misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1
 
-!URxvt.font: xft:Roboto Mono Medium:size=9:antialias=true:autohint=false
-!URxvt.boldFont: xft:Roboto Mono Bold:size=9:antialias=true:autohint=false
+URxvt.font: xft:Roboto Mono Medium:size=9:antialias=true
+
 URxvt.letterSpace: 0
+URxvt.antialias: true
 
 URxvt.termname: xterm-256color
 URxvt.iconFile: /usr/share/icons/Papirus/48x48/apps/urxvt.svg
@@ -45,7 +47,7 @@ URxvt.keysym.Control-Down:\033[1;5B
 URxvt.keysym.Control-Left:\033[1;5D
 URxvt.keysym.Control-Right:\033[1;5C
 
-URxvt*geometry: 104x24
+URxvt*geometry: 82x21
 URxvt.internalBorder: 15
 
 URxvt*transparent:false
