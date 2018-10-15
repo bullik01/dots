@@ -17,6 +17,7 @@ ROOT_DIR="root"
 
 # file paths which will be backed up into the directories above
 USER_PATHS=(
+"startpage/cntw.html"
 ".bin"
 ".colors"
 ".fonts"
@@ -59,7 +60,6 @@ USER_PATHS=(
 ".config/youtube-viewer"
 ".config/chromium-flags.conf"
 ".config/compton.conf"
-".config/cntw.html"
 ".config/kdenliverc"
 ".config/redshift.conf"
 ".config/Trolltech.conf"
