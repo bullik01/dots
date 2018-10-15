@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>cntw</name>
+    <name>cl</name>
     <cornerRadius>4</cornerRadius>
     <cornerRadius menu="yes">4</cornerRadius>
     <titleLayout>IMC</titleLayout>
@@ -255,6 +255,12 @@
         </else>
       </action>
     </keybind>
+    <keybind key="W-A-c">
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+      </action>
+    </keybind>
     <keybind key="W-f">
       <action name="ToggleFullscreen"/>
     </keybind>
@@ -417,11 +423,7 @@
     <keybind key="W-l">
       <action name="Execute">
         <command>betterlockscreen -l dimblur</command>
-      </action>
-    </keybind>
-    <keybind key="W-A-l">
-      <action name="Execute">
-        <command>oblogout</command>
+        <!-- <command>oblogout</command> -->
       </action>
     </keybind>
     <keybind key="W-A-Delete">

@@ -2,8 +2,8 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/st/.gtkrc-2.0.mine"
-gtk-theme-name="cntw"
-gtk-icon-theme-name="Papirus-Dark"
+gtk-theme-name="cl"
+gtk-icon-theme-name="Papirus"
 gtk-font-name="Clear Sans Medium, Medium 10"
 gtk-cursor-theme-name="capitaine-cursors"
 gtk-cursor-theme-size=18
