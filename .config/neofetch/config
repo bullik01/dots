@@ -552,7 +552,6 @@ image_backend="w3m"
 #       wallpaper will be used.
 image_source=auto
 
-
 # Ascii Options
 
 
