@@ -447,9 +447,9 @@
       </action>
     </keybind>
     <keybind key="C-space">
-      <action name="Execute">
-        <menu>root-menu</menu>
-      </action>
+      <action name="ShowMenu">
+       <menu>root-menu</menu>
+     </action>
     </keybind>
     <keybind key="W-d">
       <action name="Execute">

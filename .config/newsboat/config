@@ -5,7 +5,7 @@ color listfocus            white color4
 color listnormal_unread    color4 default
 color listfocus_unread     yellow color4
 #color info                 color31 default
-color info                 white default
+color info                 color4 default
 color article              color4 default
 
 # highlights
