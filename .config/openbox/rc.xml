@@ -267,7 +267,7 @@
     <keybind key="W-a">
       <action name="ToggleDecorations"/>
     </keybind>
-    <keybind key="W-d">
+    <keybind key="W-s">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <keybind key="W-g">
@@ -441,11 +441,6 @@
         <command>scrot -d 5 'scrot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/screen ; viewnior ~/Pictures/screen/$f'</command>
       </action>
     </keybind>
-    <keybind key="W-A-d">
-      <action name="Execute">
-        <command>search</command>
-      </action>
-    </keybind>
     <keybind key="W-A-o">
       <action name="Execute">
         <command>rofi -show find -modi find:~/.bin/finder.sh</command>
@@ -453,9 +448,14 @@
     </keybind>
     <keybind key="C-space">
       <action name="Execute">
-        <!-- <menu>root-menu</menu> -->
+        <menu>root-menu</menu>
+      </action>
+    </keybind>
+    <keybind key="W-d">
+      <action name="Execute">
         <!-- <command>rofi -run-command "zsh -i -c '{cmd}'" -run-list-command "source $HOME/.bin/aliases" -show run</command> -->
-        <command>rofi -show run</command>
+        <!-- <command>rofi -show run</command> -->
+        <command>search</command>
       </action>
     </keybind>
     <keybind key="A-space">

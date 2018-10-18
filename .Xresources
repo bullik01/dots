@@ -57,8 +57,8 @@ URxvt*depth: 32
 
 
 
-rofi.modi:                           ssh,window,drun,run
-rofi.sidebar-mode:                   false
+rofi.modi:                           window,drun,run
+rofi.sidebar-mode:                   true
 rofi.terminal:                       urxvt
 rofi.run-command:                    {cmd}
 rofi.run-shell-command:              {terminal} -e {cmd}
@@ -71,7 +71,7 @@ rofi.columns:                        1
 rofi.font:                           ClearSansMedium 10
 rofi.drun-icon-theme:                Papirus
 !rofi.show-icons:                    true
-rofi.bw:                             10
+rofi.bw:                             2
 rofi.location:                       0
 rofi.padding:                        20
 rofi.levenshtein-sort:               true

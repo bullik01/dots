@@ -2,7 +2,7 @@ tint2 -c ~/.config/tint2/my.tint2rc &
 tint2 -c ~/.config/tint2/tray.tint2rc &
 # hsetroot -solid "#383c4a" &
 # hsetroot -fill ~/.wall/wl2.jpg &
-hsetroot -tile ~/.wall/pt.png &
+hsetroot -tile ~/.wall/wl1.png &
 compton -b &
 # compton -b --paint-on-overlay --unredir-if-possible --backend xr_glx_hybrid --vsync drm --glx-swap-method -1 --glx-no-stencil &
 numlockx &

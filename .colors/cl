@@ -37,7 +37,7 @@
 
 ! cl
 ! Property Name     BG       Border   Separator
-rofi.color-window:  #f2f3f4, #75444A57, #fafafa
+rofi.color-window:  #f2f3f4, #ffffff, #fafafa
 
 ! Property Name     BG       FG       BG-alt   Head-BG  Head-FG
 rofi.color-normal:  #f2f3f4, #9c9c9c, #f2f3f4, #f2f3f4, #0f0f0f
