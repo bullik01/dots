@@ -41,7 +41,10 @@ if [[ "$de_theme" == "$PREF_LIGHT_THEME" ]]; then
     for i in $(xfconf-query -c xfce4-desktop -p /backdrop -l|egrep -e "screen.*/monitor.*image-path$" -e "screen.*/monitor.*/last-image$"); do
     if [ ! -z "$PREF_DARK_BG" ]; then xfconf-query -c xfce4-desktop -p $i -s $PREF_DARK_BG ; fi
     done
+
     gsettings set org.gnome.desktop.interface gtk-theme $PREF_DARK_THEME
+    gsettings set org.gnome.desktop.wm.preferences button-layout menu:
+    
     sed -i -e "s/$sublime_colorscheme_light/$sublime_colorscheme_dark/g" "$sublime_conf"
     sed -i -e "s/$sublime_theme_light.sublime-theme/$sublime_theme_dark.sublime-theme/g" "$sublime_conf"
 
@@ -58,7 +61,10 @@ else
     for i in $(xfconf-query -c xfce4-desktop -p /backdrop -l|egrep -e "screen.*/monitor.*image-path$" -e "screen.*/monitor.*/last-image$"); do
     if [ ! -z "$PREF_LIGHT_BG" ]; then xfconf-query -c xfce4-desktop -p $i -s $PREF_LIGHT_BG ; fi
     done
+
     gsettings set org.gnome.desktop.interface gtk-theme $PREF_LIGHT_THEME
+    gsettings set org.gnome.desktop.wm.preferences button-layout menu:
+    
     sed -i -e "s/$sublime_colorscheme_dark/$sublime_colorscheme_light/g" "$sublime_conf"
     sed -i -e "s/$sublime_theme_dark.sublime-theme/$sublime_theme_light.sublime-theme/g" "$sublime_conf"
 
