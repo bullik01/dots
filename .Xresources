@@ -15,7 +15,7 @@ Xft.lcdfilter: lcddefault
 !URxvt.font: -misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1
 !URxvt.boldFont: -misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1
 
-URxvt.font: xft:Roboto Mono Medium:size=9:antialias=true
+URxvt.font: xft:Roboto Mono Medium:size=9
 
 URxvt.letterSpace: 0
 URxvt.antialias: true
@@ -32,7 +32,7 @@ URxvt*scrollTtyOutput: true
 URxvt*scrollWithBuffer: true
 URxvt*scrollTtyKeypress: true
 
-URxvt.perl-ext: default,clipboard,url-select,keyboard-select
+URxvt.perl-ext: default,clipboard,url-select,keyboard-select,config-reload
 URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.url-select.launcher: /usr/bin/xdg-open
 URxvt.url-select.underline: true

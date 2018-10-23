@@ -3,6 +3,7 @@
 *.foreground:   #b3bdcb
 *.background:   #111113
 *.cursorColor:  #b3bdcb
+*.border:       #111113
 
 ! black
 *.color0:       #111113

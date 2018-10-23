@@ -38,6 +38,7 @@ abuild () {
 
 #alias neo="neofetch"
 alias neo="neofetch --w3m ~/.config/neofetch/cn.jpg"
+# alias neo="neofetch --kitty ~/.config/neofetch/cn.jpg"
 # alias neo="neofetch --w3m"
 
 # Погода, не только по городу, но и по месту. Нет привязки к регистру и языку.
@@ -98,9 +99,10 @@ alias gf="git fetch"
 alias gpl="git pull"
 alias gp="git push"
 alias gpm="git push origin master"
-alias ghab="chromium http://github.com/ctlos &"
+alias ghab="$BROWSER http://github.com/ctlos &"
 
-alias torc="chromium --proxy-server='socks://127.0.0.1:9050' &"
+# tor chromium
+alias torc="$BROWSER --proxy-server='socks://127.0.0.1:9050' &"
 
 # full screen flags -fs
 alias yt="youtube-viewer"
@@ -111,11 +113,11 @@ ytv () {
 # youtube-dl --ignore-errors -o '~/Видео/youtube/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL-UzghgfytJQV-JCEtyuttutudMk7
 # Загрузка Видео ~/Videos или ~/Видео
 # Пример: dlv https://www.youtube.com/watch?v=gBAfejjUQoA
-dlv () {
+ytv () {
 	youtube-dl --ignore-errors -o '~/Videos/youtube/%(title)s.%(ext)s' "$1"
 }
 # dlp https://www.youtube.com/playlist?list=PL-UzghgfytJQV-JCEtyuttutudMk7
-dlp () {
+ytp () {
 	youtube-dl --ignore-errors -o '~/Videos/youtube/%(playlist)s/%(title)s.%(ext)s' "$1"
 }
 

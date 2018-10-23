@@ -417,7 +417,7 @@
     </keybind>
     <keybind key="A-w">
       <action name="Execute">
-        <command>findapp chromium</command>
+        <command>findapp firefox</command>
       </action>
     </keybind>
     <keybind key="W-l">
@@ -838,7 +838,7 @@
       <shade>no</shade>
       <focus>yes</focus>
     </application>
-    <application name="chromium">
+    <application name="firefox">
       <decor>no</decor>
       <shade>yes</shade>
     </application>

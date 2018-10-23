@@ -37,6 +37,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 export TERM="xterm-256color"
 # export TERM="rxvt-unicode-256color"
 export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'subl3'; else echo 'nano'; fi)"
+export BROWSER="firefox"
 export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 if [ -f ~/.alias_zsh ]; then
