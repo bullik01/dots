@@ -25,11 +25,13 @@ vboxshare () {
 
 # aur pkg
 aget () {
+	cd ~/.build
 	curl -fO https://aur.archlinux.org/cgit/aur.git/snapshot/"$1".tar.gz
 }
 
 # build and install pkg from aur
 abuild () {
+	cd ~/.build
 	curl -fO https://aur.archlinux.org/cgit/aur.git/snapshot/"$1".tar.gz
 	tar -xvf $1.tar.gz
 	cd $1
