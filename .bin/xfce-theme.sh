@@ -39,11 +39,13 @@ if [[ "$de_theme" == "$PREF_LIGHT_THEME" ]]; then
     xfconf-query -c xfwm4 -p /general/theme -s $PREF_DARK_DECO
     xfconf-query -c xsettings -p /Net/IconThemeName -s $PREF_DARK_ICO
     for i in $(xfconf-query -c xfce4-desktop -p /backdrop -l|egrep -e "screen.*/monitor.*image-path$" -e "screen.*/monitor.*/last-image$"); do
-    if [ ! -z "$PREF_DARK_BG" ]; then xfconf-query -c xfce4-desktop -p $i -s $PREF_DARK_BG ; fi
+        # if [ ! -z "$PREF_DARK_BG" ]; then xfconf-query -c xfce4-desktop -p $i -n -t string -s $PREF_DARK_BG ; fi
+        if [ ! -z "$PREF_DARK_BG" ]; then xfconf-query -c xfce4-desktop -p $i -s $PREF_DARK_BG ; fi
     done
+    xfconf-query -c xsettings -p /Gtk/DecorationLayout -s menu:
 
     gsettings set org.gnome.desktop.interface gtk-theme $PREF_DARK_THEME
-    gsettings set org.gnome.desktop.wm.preferences button-layout menu:
+    gsettings set org.gnome.desktop.wm.preferences button-layout '"menu:"'
     
     sed -i -e "s/$sublime_colorscheme_light/$sublime_colorscheme_dark/g" "$sublime_conf"
     sed -i -e "s/$sublime_theme_light.sublime-theme/$sublime_theme_dark.sublime-theme/g" "$sublime_conf"
@@ -59,11 +61,13 @@ else
     xfconf-query -c xfwm4 -p /general/theme -s $PREF_LIGHT_DECO
     xfconf-query -c xsettings -p /Net/IconThemeName -s $PREF_LIGHT_ICO
     for i in $(xfconf-query -c xfce4-desktop -p /backdrop -l|egrep -e "screen.*/monitor.*image-path$" -e "screen.*/monitor.*/last-image$"); do
-    if [ ! -z "$PREF_LIGHT_BG" ]; then xfconf-query -c xfce4-desktop -p $i -s $PREF_LIGHT_BG ; fi
+        # if [ ! -z "$PREF_LIGHT_BG" ]; then xfconf-query -c xfce4-desktop -p $i -n -t string -s $PREF_LIGHT_BG ; fi
+        if [ ! -z "$PREF_LIGHT_BG" ]; then xfconf-query -c xfce4-desktop -p $i -s $PREF_LIGHT_BG ; fi
     done
+    xfconf-query -c xsettings -p /Gtk/DecorationLayout -s menu:
 
     gsettings set org.gnome.desktop.interface gtk-theme $PREF_LIGHT_THEME
-    gsettings set org.gnome.desktop.wm.preferences button-layout menu:
+    gsettings set org.gnome.desktop.wm.preferences button-layout '"menu:"'
     
     sed -i -e "s/$sublime_colorscheme_dark/$sublime_colorscheme_light/g" "$sublime_conf"
     sed -i -e "s/$sublime_theme_dark.sublime-theme/$sublime_theme_light.sublime-theme/g" "$sublime_conf"
