@@ -38,9 +38,9 @@ abuild () {
 	# tar -xvf $1.tar.gz
 	cd $1
 	makepkg -si --skipinteg
-	cd ..
-	# rm -rf $1 $1.tar.gz
-	rm -rf $1
+	cd ~
+	# rm -rf ~/.build/$1 ~/.build/$1.tar.gz
+	rm -rf ~/.build/$1
 }
 
 #alias neo="neofetch"
