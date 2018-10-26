@@ -26,16 +26,21 @@ vboxshare () {
 # aur pkg
 aget () {
 	cd ~/.build
-	curl -fO https://aur.archlinux.org/cgit/aur.git/snapshot/"$1".tar.gz
+	git clone https://aur.archlinux.org/"$1".git
+	# curl -fO https://aur.archlinux.org/cgit/aur.git/snapshot/"$1".tar.gz
 }
 
 # build and install pkg from aur
 abuild () {
 	cd ~/.build
-	curl -fO https://aur.archlinux.org/cgit/aur.git/snapshot/"$1".tar.gz
-	tar -xvf $1.tar.gz
+	git clone https://aur.archlinux.org/"$1".git
+	# curl -fO https://aur.archlinux.org/cgit/aur.git/snapshot/"$1".tar.gz
+	# tar -xvf $1.tar.gz
 	cd $1
 	makepkg -si --skipinteg
+	cd ..
+	# rm -rf $1 $1.tar.gz
+	rm -rf $1
 }
 
 #alias neo="neofetch"
