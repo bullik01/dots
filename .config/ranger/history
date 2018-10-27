@@ -16,3 +16,4 @@ open_with 1
 open_with q
 rename .wall
 open_with
+shell dots
