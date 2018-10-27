@@ -28,7 +28,7 @@ echo
 pacman -S --noconfirm --needed $virtualbox_install
 
 
-pack="base-devel xorg-apps xorg-server xorg-xinit \
+pack="xorg-apps xorg-server xorg-xinit \
 mesa xf86-video-nouveau \
 networkmanager network-manager-applet \
 gtk-engines gtk-engine-murrine xdg-user-dirs-gtk qt4 qt5-styleplugins qt5ct \
@@ -42,10 +42,10 @@ openssh tmux \
 curl wget git rsync python-pip unzip unrar p7zip \
 gvfs gvfs-afc gvfs-goa gvfs-mtp ntfs-3g \
 gamin thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler \
-gsimplecal redshift xfce4-power-manager numlockx volumeicon \
-atril audacious cherrytree galculator-gtk2 gimp gparted chromium pepper-flash \
+gsimplecal redshift numlockx volumeicon \
+atril audacious cherrytree galculator-gtk2 gimp gparted firefox firefox-i18n-ru \
 gufw nitrogen pavucontrol simplescreenrecorder transmission-gtk viewnior keepassxc veracrypt \
-openbox lxappearance-obconf obconf"
+exo garcon gtk-xfce-engine xfce4-power-manager xfce4-session xfce4-settings xfconf xfdesktop xfwm4"
 
 pacman -S --noconfirm --needed $pack
 

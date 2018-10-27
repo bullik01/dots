@@ -49,12 +49,16 @@ alias neo="neofetch --w3m ~/.config/neofetch/cn.jpg"
 # alias neo="neofetch --w3m"
 
 # Погода, не только по городу, но и по месту. Нет привязки к регистру и языку.
-alias wtr='curl -H "Accept-Language: ru" wttr.in/Москва'
-# alias wtr='curl -H "Accept-Language: ru" -s wttr.in/Москва | sed -n "1,17p"'
-wts () {
-	curl -H 'Accept-Language: ru' wttr.in/"$1"
+# alias wtr="curl 'wttr.in/Москва?M&lang=ru'"
+# alias wtr="curl 'wttr.in/Москва?M&lang=ru' | sed -n '1,17p'"
+# alias wtr="curl 'wttr.in/?M1npQ&lang=ru'"
+wtr () {
+	curl "wttr.in/?M$1npQ&lang=ru"
 }
-alias moon='curl wttr.in/Moon'
+wts () {
+	curl "wttr.in/$1?M&lang=ru"
+}
+alias moon="curl 'wttr.in/Moon'"
 
 alias dir="dir --color=auto"
 alias vdir="vdir --color=auto"

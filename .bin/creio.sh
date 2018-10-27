@@ -47,7 +47,7 @@ mount /dev/$B_DISK /mnt/boot
 mount /dev/$H_DISK /mnt/home
 swapon /dev/$S_DISK
 
-pacstrap /mnt base
+pacstrap /mnt base base-devel
 
 cp creio2.sh /mnt/creio2.sh
 chmod u+x /mnt/creio2.sh
