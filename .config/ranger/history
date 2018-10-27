@@ -11,3 +11,8 @@ st wite
 cd .config/openbox/rc.xml
 cd .config/openbox/
 delete
+open_with1
+open_with 1
+open_with q
+rename .wall
+open_with

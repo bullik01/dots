@@ -71,7 +71,7 @@ while true; do
     esac
 done
 
-useradd -m -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/zsh "$USER"
+useradd -m -g users -G "adm,audio,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/zsh "$USER"
 passwd "$USER"
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 
@@ -101,6 +101,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 systemctl enable NetworkManager
-# systemctl start NetworkManager
+# systemctl enable lightdm
 
 echo "System Setup Complete"
