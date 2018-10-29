@@ -2,9 +2,9 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/st/.gtkrc-2.0.mine"
-gtk-theme-name="cl"
+gtk-theme-name="cntw"
 gtk-icon-theme-name="Papirus"
-gtk-font-name="Clear Sans Medium, Medium 10"
+gtk-font-name="Clear Sans Medium, Medium 9"
 gtk-cursor-theme-name="capitaine-cursors"
 gtk-cursor-theme-size=18
 gtk-toolbar-style=GTK_TOOLBAR_BOTH_HORIZ
@@ -15,5 +15,5 @@ gtk-enable-event-sounds=1
 gtk-enable-input-feedback-sounds=1
 gtk-xft-antialias=1
 gtk-xft-hinting=1
-gtk-xft-hintstyle="hintslight"
+gtk-xft-hintstyle="hintfull"
 gtk-xft-rgba="rgb"

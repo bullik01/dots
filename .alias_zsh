@@ -53,7 +53,7 @@ alias neo="neofetch --w3m ~/.config/neofetch/cn.jpg"
 # alias wtr="curl 'wttr.in/Москва?M&lang=ru' | sed -n '1,17p'"
 # alias wtr="curl 'wttr.in/?M1npQ&lang=ru'"
 wtr () {
-	curl "wttr.in/?M$1npQ&lang=ru"
+	curl "wttr.in/gomel?M$1npQ&lang=ru"
 }
 wts () {
 	curl "wttr.in/$1?M&lang=ru"

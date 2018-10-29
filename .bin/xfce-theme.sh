@@ -6,8 +6,8 @@ qt_conf="$HOME/.config/qt5ct/qt5ct.conf"
 
 
 # preferences for light theme mode
-PREF_LIGHT_THEME="cl"
-PREF_LIGHT_DECO="cl"
+PREF_LIGHT_THEME="cltw"
+PREF_LIGHT_DECO="cltw"
 PREF_LIGHT_BG="$HOME/.wall/wl1.png"
 PREF_LIGHT_ICO="Papirus"
 
@@ -27,7 +27,7 @@ sublime_colorscheme_dark="Packages\\/User\\/cntw.tmTheme"
 # Xresources color theme ~/.colors
 xresources_conf="$HOME/.Xresources"
 
-xresources_color_light="colors\\/cl"
+xresources_color_light="colors\\/cltw"
 xresources_color_dark="colors\\/cntw"
 
 

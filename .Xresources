@@ -8,7 +8,7 @@ Xft.lcdfilter: lcddefault
 
 
 
-#include ".colors/cl"
+#include ".colors/cltw"
 
 !URxvt.font: xft:Iosevka Term:size=9:antialias=true
 
@@ -68,7 +68,7 @@ rofi.opacity:                        100
 rofi.width:                          25
 rofi.lines:                          7
 rofi.columns:                        1
-rofi.font:                           ClearSansMedium 10
+rofi.font:                           ClearSansMedium 9
 rofi.drun-icon-theme:                Papirus
 !rofi.show-icons:                    true
 rofi.bw:                             2
@@ -78,7 +78,7 @@ rofi.levenshtein-sort:               true
 rofi.case-sensitive:                 false
 rofi.fuzzy:                          false
 rofi.line-margin:                    10
-rofi.separator-style:                solid
+rofi.separator-style:                none
 rofi.hide-scrollbar:                 true
 rofi.markup-rows:                    false
 rofi.scrollbar-width:                0

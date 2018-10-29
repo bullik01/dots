@@ -2,7 +2,14 @@
 # Make sure you have installed it
 # Add don't forget to add it to your startup
 
+Gtk/DecorationLayout "menu:"
+Gtk/FontName "Clear Sans Medium, Medium 9"
+Gtk/MonospaceFontName "Roboto Mono Medium 9"
+
+Net/IconThemeName "Papirus"
+Net/ThemeName "cltw"
+
 Xft/Hinting 1
 Xft/RGBA "rgb"
-Xft/HintStyle "hintslight"
+Xft/HintStyle "hintfull"
 Xft/Antialias 1

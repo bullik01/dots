@@ -102,6 +102,7 @@ our $SCHEMA = [
     {sep => undef},
 
     ## The xscreensaver lock command
+    # betterlockscreen -u .wall/lock.jpg -r 1366x768
     {item => ['betterlockscreen -l dimblur', 'Заблокировать экран', 'system-lock-screen']},
 
     ## This option uses the default Openbox's "Exit" action

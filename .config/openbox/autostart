@@ -1,23 +1,21 @@
 tint2 -c ~/.config/tint2/my.tint2rc &
 tint2 -c ~/.config/tint2/tray.tint2rc &
 # hsetroot -solid "#383c4a" &
-# hsetroot -fill ~/.wall/wl2.jpg &
-hsetroot -tile ~/.wall/wl1.png &
+hsetroot -fill ~/.wall/wl1.png &
 compton -b &
-# compton -b --paint-on-overlay --unredir-if-possible --backend xr_glx_hybrid --vsync drm --glx-swap-method -1 --glx-no-stencil &
 numlockx &
+urxvtd -q -f -o &
 xsettingsd &
 xfce4-power-manager &
 pulseaudio --start &
 /usr/lib/xfce-polkit/xfce-polkit &
 setxkbmap -layout us,ru -option "grp:win_space_toggle,grp_led:scroll" &
 thunar --daemon &
-# clipmenud &
-
 redshift-gtk &
-volumeicon &
+# clipmenud &
+clipit &
 nm-applet &
-megasync &
-# caffeine &
-(sleep 3; clipit) &
+volumeicon &
+# megasync &
+# (sleep 2; caffeine) &
 # sh ~/.bin/cookie &

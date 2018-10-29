@@ -15,9 +15,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 syntax on
 let g:mapleader=','
 let NERDTreeShowHidden=1
-"set background=dark
 "colorscheme nord
 "colorscheme gruvbox
+"set background=dark
 set mouse=a
 set number
 set expandtab
