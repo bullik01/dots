@@ -40,7 +40,7 @@ Xscreen=1366
 Yscreen=768
 
 # Offset applied to the window's vertical position
-offset=10
+offset=5
 
 # Height of the cava panel
 h=200
@@ -83,6 +83,7 @@ trPixel=10
 
 # Process parameters
 
+
 if [ ! $cavaConf = '' ]; then
 	cavaConf=" -p $cavaConf"
 fi
@@ -100,6 +101,7 @@ if [ $# -eq 0 ]; then
 		echo "Found another $0 running, killig it and terminating..."
 		kill -15 `cat /tmp/processesToKill` > /dev/null 2>&1
 		rm /tmp/processesToKill
+		killall cava
 		exit
 	else
 		#It hasn't found other instances, call himself with the argument 'start'
