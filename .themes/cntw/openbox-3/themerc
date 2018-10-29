@@ -38,11 +38,52 @@ window.active.*.bg: Flat
 window.active.*.*.bg.color: #17181A
 window.active.*.*.image.color: #5a74ca
 
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
 
-# inactive window
-window.inactive.*.bg: Flat
-window.inactive.*.*.bg.color: #17181A
-window.inactive.*.*.image.color: #b3bdcb
+window.active.button.pressed.image.color: #5294E2
+window.active.button.disabled.image.color: #dbdfe3
+window.active.button.iconify.unpressed.image.color: #9c9c9c
+window.active.button.max.unpressed.image.color: #6f6f6f
+window.active.button.close.unpressed.image.color: #b3bdcb
+window.active.button.shade.unpressed.image.color: #c3c3c3
+window.active.button.desk.unpressed.image.color: #dddee2
+window.active.button.iconify.hover.image.color: #df9e07
+window.active.button.max.hover.image.color: #24a83a
+window.active.button.close.hover.image.color: #dd1308
+window.active.button.toggled.unpressed.image.color: #24a83a
+window.active.button.toggled.pressed.image.color: #5294E2
+window.active.button.toggled.hover.image.color: #2bcc46
+
+
+### INACTIVE
+
+window.inactive.title.bg.color: #17181A
+window.inactive.label.bg.color: #17181A
+window.inactive.handle.bg: #17181A
+window.inactive.grip.bg: #17181A
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.inactive.button.unpressed.image.color: #b3bdcb
+window.inactive.button.pressed.image.color: #b3bdcb
+window.inactive.button.disabled.image.color: #dbdfe3
+window.inactive.button.hover.image.color: #70788d
+window.inactive.button.toggled.unpressed.image.color: #b3bdcb
+window.inactive.button.toggled.pressed.image.color: #b3bdcb
+window.inactive.button.toggled.hover.image.color: #70788d
+
 
 
 # handle
