@@ -25,7 +25,6 @@ vboxshare () {
 
 # aur pkg
 aget () {
-	cd ~/.build
 	git clone https://aur.archlinux.org/"$1".git
 	# curl -fO https://aur.archlinux.org/cgit/aur.git/snapshot/"$1".tar.gz
 }
@@ -53,7 +52,8 @@ alias neo="neofetch --w3m ~/.config/neofetch/cn.jpg"
 # alias wtr="curl 'wttr.in/Москва?M&lang=ru' | sed -n '1,17p'"
 # alias wtr="curl 'wttr.in/?M1npQ&lang=ru'"
 wtr () {
-	curl "wttr.in/gomel?M$1npQ&lang=ru"
+	curl "wttr.in/?M$1npQ&lang=ru"
+	# curl "wttr.in/Москва?M$1npQ&lang=ru"
 }
 wts () {
 	curl "wttr.in/$1?M&lang=ru"
@@ -86,6 +86,7 @@ alias ...="cd ../.."
 # alias ....="cd ../../.."
 # alias .....="cd ../../../.."
 alias :q="exit"
+alias ctliso="cd ~/files/github/ctlosiso"
 
 gc () {
 	git clone "$1"
