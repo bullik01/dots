@@ -264,6 +264,12 @@
     <keybind key="W-s">
       <action name="ToggleShowDesktop"/>
     </keybind>
+    <keybind key="W-v">
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+      </action>
+    </keybind>
     <keybind key="W-g">
       <action name="ToggleAlwaysOnTop"/>
     </keybind>
