@@ -17,3 +17,4 @@ open_with q
 rename .wall
 open_with
 shell dots
+rename .adobe

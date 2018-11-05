@@ -822,10 +822,10 @@
       <shade>no</shade>
       <focus>yes</focus>
     </application>
-    <application name="firefox">
+    <!-- <application name="firefox">
       <decor>no</decor>
       <shade>yes</shade>
-    </application>
+    </application> -->
     <application class="URxvt">
       <decor>no</decor>
     </application>
