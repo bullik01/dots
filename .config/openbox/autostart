@@ -1,7 +1,7 @@
 tint2 -c ~/.config/tint2/my.tint2rc &
 tint2 -c ~/.config/tint2/tray.tint2rc &
 # hsetroot -solid "#383c4a" &
-hsetroot -fill ~/.wall/wl1.png &
+hsetroot -fill ~/.wall/wl2.jpg &
 compton -b &
 numlockx &
 urxvtd -q -f -o &
