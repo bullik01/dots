@@ -55,7 +55,7 @@ pacstrap /mnt base base-devel
 cp creio2.sh /mnt/creio2.sh
 chmod u+x /mnt/creio2.sh
 
-genfstab -pU /mnt >> /mnt/etc/fstab
+genfstab -U /mnt >> /mnt/etc/fstab
 
 # arch-chroot /mnt sh -c "$(curl -fsSL git.io/creio2.sh)"
 arch-chroot /mnt ./creio2.sh
