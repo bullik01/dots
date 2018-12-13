@@ -1,8 +1,9 @@
 sw_volume: 100
 audio_device_state:1:MPD pulse
 audio_device_state:1:MPD FIFO
-state: stop
-current: 20
+state: pause
+current: 13
+time: 229.246000
 random: 0
 repeat: 0
 single: 0
@@ -11,82 +12,29 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Mix - Alina Baraz/11_11 - YOU (Audio).mp3
-1:Mix - Alina Baraz/Alina Baraz - Art Of Persuasion.mp3
-2:Mix - Alina Baraz/Alina Baraz - Buzzin (Official Video).mp3
-3:Mix - Alina Baraz/Alina Baraz - Coming To My Senses.mp3
-4:Mix - Alina Baraz/Alina Baraz - Electric (feat. Khalid).mp3
-5:Mix - Alina Baraz/Alina Baraz - Electric Feat. Khalid (Lyrics).mp3
-6:Mix - Alina Baraz/Alina Baraz - Fallin (Official Audio).mp3
-7:Mix - Alina Baraz/Alina Baraz - Floating Feat. Khalid (Official Audio).mp3
-8:Mix - Alina Baraz/Alina Baraz - High (Official Audio).mp3
-9:Mix - Alina Baraz/Alina Baraz - I Don't Even Know Why Though.mp3
-10:Mix - Alina Baraz/Alina Baraz - Lavender and Velvet.mp3
-11:Mix - Alina Baraz/Alina Baraz - Paradise (Prod. By ESTA.).mp3
-12:Mix - Alina Baraz/Alina Baraz - Tainted (Official Audio).mp3
-13:Mix - Alina Baraz/Alina Baraz - The One (feat. Jada).mp3
-14:Mix - Alina Baraz/Alina Baraz - Yours (Official Audio).mp3
-15:Mix - Alina Baraz/Alina Baraz & Galimatias - Can I (Cover Art).mp3
-16:Mix - Alina Baraz/Alina Baraz & Galimatias - Drift.mp3
-17:Mix - Alina Baraz/Alina Baraz & Galimatias - Fantasy.mp3
-18:Mix - Alina Baraz/Alina Baraz & Galimatias - Make You Feel.mp3
-19:Mix - Alina Baraz/Alina Baraz & Galimatias - Maybe.mp3
-20:Mix - Alina Baraz/Alina Baraz & Galimatias - Pretty Thoughts.mp3
-21:Mix - Alina Baraz/Alina Baraz & Galimatias - Show Me.mp3
-22:Mix - Alina Baraz/Alina Baraz & Galimatias - Unfold.mp3
-23:Mix - Alina Baraz/APES_T - THE CARTERS.mp3
-24:Mix - Alina Baraz/Ariana Grande - no tears left to cry.mp3
-25:Mix - Alina Baraz/Bazzi - Mine (Official Video).mp3
-26:Mix - Alina Baraz/Billie Eilish - lovely (with Khalid).mp3
-27:Mix - Alina Baraz/Bruno Mars - Finesse (Remix) [Feat. Cardi B] [Official Video].mp3
-28:Mix - Alina Baraz/Calvin Harris - Hard to Love (Official Video) ft. Jessie Reyez.mp3
-29:Mix - Alina Baraz/Childish Gambino - Redbone (Official Audio).mp3
-30:Mix - Alina Baraz/Daniel Caesar - Best Part (feat. H.E.R.).mp3
-31:Mix - Alina Baraz/Daniel Caesar - Get You ft. Kali Uchis [Official Video].mp3
-32:Mix - Alina Baraz/Doja Cat - So High (Explicit Version).mp3
-33:Mix - Alina Baraz/Drake - Nice For What.mp3
-34:Mix - Alina Baraz/Electric - Alina Baraz feat. Khalid (Cover).mp3
-35:Mix - Alina Baraz/Ella Mai - Boo'd Up.mp3
-36:Mix - Alina Baraz/Finding Hope - 3_00 AM (Lyric Video).mp3
-37:Mix - Alina Baraz/Fkj - Vibin' Out with (((O))).mp3
-38:Mix - Alina Baraz/Fkj & Masego - Tadow.mp3
-39:Mix - Alina Baraz/Flume - Never Be Like You feat. Kai.mp3
-40:Mix - Alina Baraz/G-Eazy & Halsey - Him & I (Official Video).mp3
-41:Mix - Alina Baraz/Galimatias - Blowback.mp3
-42:Mix - Alina Baraz/Galimatias - Ocean Floor Kisses.mp3
-43:Mix - Alina Baraz/Galimatias - South.mp3
-44:Mix - Alina Baraz/H.E.R. - Every Kind Of Way (Official Video).mp3
-45:Mix - Alina Baraz/H.E.R. - Focus.mp3
-46:Mix - Alina Baraz/Jhené Aiko - Sativa ft. Rae Sremmurd.mp3
-47:Mix - Alina Baraz/Jhené Aiko feat. Kurupt -Never Call Me (Slauson Hills Edition).mp3
-48:Mix - Alina Baraz/Jhene Aiko ft. The Weeknd &Frank Ocean - All I Want  (Runaway III).mp3
-49:Mix - Alina Baraz/Jorja Smith - Something In The Way.mp3
-50:Mix - Alina Baraz/Jorja Smith X Preditah - On My Mind.mp3
-51:Mix - Alina Baraz/Kali Uchis - After The Storm ft. Tyler, The Creator, Bootsy Collins.mp3
-52:Mix - Alina Baraz/Kendrick Lamar, SZA - All The Stars.mp3
-53:Mix - Alina Baraz/Khalid - Location (Official Video).mp3
-54:Mix - Alina Baraz/Khalid - OTW (Audio) ft. 6LACK, Ty Dolla $ign.mp3
-55:Mix - Alina Baraz/Khalid & Normani - Love Lies (Official Video).mp3
-56:Mix - Alina Baraz/Miguel - Come Through and Chill (Official Video) ft. J. Cole, Salaam Remi.mp3
-57:Mix - Alina Baraz/Miguel - Sky Walker (Official Video) ft. Travis Scott.mp3
-58:Mix - Alina Baraz/Oh Wonder - Body Gold (Louis The Child Remix).mp3
-59:Mix - Alina Baraz/Phlake - Gone (feat. Alina Baraz).mp3
-60:Mix - Alina Baraz/Russ - Losin Control (Official Video).mp3
-61:Mix - Alina Baraz/Sabrina Claudio  - Belong To You (Official Video).mp3
-62:Mix - Alina Baraz/Sabrina Claudio - 'Stand Still' [Movement Visual].mp3
-63:Mix - Alina Baraz/Sabrina Claudio - 'Unravel Me' (Official Video).mp3
-64:Mix - Alina Baraz/Sabrina Claudio - All To You (Lyric Visual).mp3
-65:Mix - Alina Baraz/Sabrina Claudio - Confidently Lost (Official Video).mp3
-66:Mix - Alina Baraz/Sabrina Claudio - Frozen (Official Audio).mp3
-67:Mix - Alina Baraz/Sabrina Claudio - Tell Me (Acoustic).mp3
-68:Mix - Alina Baraz/Sinead Harnett - If You Let Me ft. GRADES.mp3
-69:Mix - Alina Baraz/SZA - Garden (Say It Like Dat) (Official Video).mp3
-70:Mix - Alina Baraz/SZA - Love Galore (Official Video) ft. Travis Scott.mp3
-71:Mix - Alina Baraz/Ta-ku - Down For You ft. Alina Baraz.mp3
-72:Mix - Alina Baraz/Tank - When We [Official Music Video].mp3
-73:Mix - Alina Baraz/The Internet - Girl (Official Video) ft. KAYTRANADA.mp3
-74:Mix - Alina Baraz/The Weeknd - Call Out My Name (Official Audio).mp3
-75:Mix - Alina Baraz/Tinashe - No Drama (Official Video) ft. Offset.mp3
-76:Mix - Alina Baraz/Two Feet - I Feel Like I'm Drowning.mp3
-77:Mix - Alina Baraz/Yuna - Crush ft. Usher.mp3
+0:Rammstein - Essentials (2018)/01. Du hast.mp3
+1:Rammstein - Essentials (2018)/02. Sonne.mp3
+2:Rammstein - Essentials (2018)/03. Amerika.mp3
+3:Rammstein - Essentials (2018)/04. Engel.mp3
+4:Rammstein - Essentials (2018)/05. Feuer Frei!.mp3
+5:Rammstein - Essentials (2018)/06. Bueck dich.mp3
+6:Rammstein - Essentials (2018)/07. Rammstein.mp3
+7:Rammstein - Essentials (2018)/08. Mein Teil.mp3
+8:Rammstein - Essentials (2018)/09. Rosenrot.mp3
+9:Rammstein - Essentials (2018)/10. Ich Will.mp3
+10:Rammstein - Essentials (2018)/11. Keine Lust.mp3
+11:Rammstein - Essentials (2018)/12. Sehnsucht.mp3
+12:Rammstein - Essentials (2018)/13. Mutter.mp3
+13:Rammstein - Essentials (2018)/14. Du riechst so gut.mp3
+14:Rammstein - Essentials (2018)/15. Mein Herz Brennt.mp3
+15:Rammstein - Essentials (2018)/16. Mein Land.mp3
+16:Rammstein - Essentials (2018)/17. Links 2 3 4.mp3
+17:Rammstein - Essentials (2018)/18. Pussy.mp3
+18:Rammstein - Essentials (2018)/19. Te Quiero Puta!.mp3
+19:Rammstein - Essentials (2018)/20. Haifisch.mp3
+20:Rammstein - Essentials (2018)/21. Benzin.mp3
+21:Rammstein - Essentials (2018)/22. Klavier.mp3
+22:Rammstein - Essentials (2018)/23. Asche zu Asche.mp3
+23:Rammstein - Essentials (2018)/24. Ich Tu Dir Weh.mp3
+24:Rammstein - Essentials (2018)/25. Reise, Reise.mp3
 playlist_end

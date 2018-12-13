@@ -14,10 +14,9 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
+  web-search
 )
-
 export PATH=$HOME/.bin:$HOME/.bin/popup:/usr/local/bin:$PATH
-
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR

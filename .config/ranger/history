@@ -1,5 +1,4 @@
 cd .config/neofetch/
-
 shell st
  st .
 [M#:0[M :0[M#:0[M 80[M#80[M 80[M#80[M 72[M#72[M 72[M#72[M"72[M#72[M!72[M#72
@@ -10,11 +9,12 @@ open_with
 st wite
 cd .config/openbox/rc.xml
 cd .config/openbox/
+delete
 open_with1
 open_with 1
 open_with q
 rename .wall
 open_with
 shell dots
-rename .adobe
-delete
+
+cd .config
