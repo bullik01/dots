@@ -25,4 +25,6 @@
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_16"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
+  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
+  <property name="last-details-view-column-widths" type="string" value="50,136,50,50,153,50,50,78,50,186"/>
 </channel>

@@ -164,6 +164,7 @@ iso () {
 
 alias -s {mp3,m4a,flac}="mpv"
 alias -s {png,jpg,tiff,bmp}="viewnior"
+alias -s {vi,vim}="nvim"
 
 alias st="$EDITOR"
 alias sst="sudo $EDITOR"
@@ -188,7 +189,6 @@ alias spr="sudo pacman -R"
 
 alias y="yay -S"
 alias yn="yay -S --noconfirm"
-alias ygpg="yay -S --m-arg "--skippgpcheck" --noconfirm"
 alias ys="yay"
 alias ysn="yay --noconfirm"
 alias yc="yay -Sc"
@@ -198,6 +198,7 @@ alias yu="yay -Syu"
 alias yun="yay -Syu --noconfirm"
 alias yr="yay -R"
 alias yrn="yay -R --noconfirm"
+alias ygpg="--mflags '--nocheck --skippgpcheck --noconfirm'"
 
 # распаковать архив не указывая тип распаковщика
 function ex {

@@ -8,11 +8,11 @@ Xft.lcdfilter: lcddefault
 
 
 
-#include ".colors/cltw"
+#include ".colors/cntw"
 
 !URxvt.font: xft:Iosevka Term:size=9:antialias=true
 
-!URxvt.font: -misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1
+!URxvt.font: -addy-canele-medium-r-normal-*-12-120-75-75-m-60-iso8859-1
 !URxvt.boldFont: -misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1
 
 URxvt.font: xft:Roboto Mono Medium:size=9
