@@ -15,7 +15,12 @@ open_with q
 rename .wall
 open_with
 shell dots
-
 cd .config
 nvim
 delete
+search.config
+search .config
+search range
+rename scope.sh.bak
+
+find

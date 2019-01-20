@@ -164,7 +164,7 @@ iso () {
 
 alias -s {mp3,m4a,flac}="mpv"
 alias -s {png,jpg,tiff,bmp}="viewnior"
-alias -s {vi,vim}="nvim"
+alias -s {sh,txt}="nvim"
 
 alias st="$EDITOR"
 alias sst="sudo $EDITOR"
