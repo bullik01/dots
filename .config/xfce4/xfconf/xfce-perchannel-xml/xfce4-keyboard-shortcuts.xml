@@ -30,7 +30,6 @@
       <property name="&lt;Primary&gt;space" type="string" value="xfdesktop --menu"/>
       <property name="&lt;Alt&gt;d" type="string" value="rofi -show drun"/>
       <property name="&lt;Alt&gt;space" type="string" value="/home/st/.bin/toggle-tint.sh"/>
-      <property name="&lt;Alt&gt;w" type="string" value="/home/st/.bin/findapp firefox"/>
       <property name="&lt;Alt&gt;f" type="string" value="/home/st/.bin/findapp thunar"/>
       <property name="&lt;Alt&gt;s" type="string" value="/home/st/.bin/findapp subl3"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-settings-manager"/>
@@ -43,6 +42,7 @@
       <property name="&lt;Alt&gt;r" type="string" value="urxvtc -g 135x35+70+40 -e ranger"/>
       <property name="&lt;Super&gt;d" type="string" value="/home/st/.bin/search"/>
       <property name="&lt;Super&gt;w" type="string" value="rofi -show window -show-icons -drun-icon-theme"/>
+      <property name="&lt;Alt&gt;w" type="string" value="/home/st/.bin/findapp chromium"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -154,7 +154,6 @@
       <property name="&lt;Super&gt;s" type="string" value="show_desktop_key"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;Left" type="string" value="left_workspace_key"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;Right" type="string" value="right_workspace_key"/>
-      <property name="&lt;Super&gt;Down" type="string" value="tile_down_key"/>
     </property>
   </property>
   <property name="providers" type="array">

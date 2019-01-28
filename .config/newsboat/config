@@ -14,7 +14,7 @@ highlight article "https?://[^ ]+" white default protect
 
 # generals
 confirm-exit yes
-browser firefox
+browser chromium
 auto-reload yes
 cleanup-on-quit yes
 player mpv

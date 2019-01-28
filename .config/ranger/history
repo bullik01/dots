@@ -1,26 +1,50 @@
-cd .config/neofetch/
 shell st
  st .
 [M#:0[M :0[M#:0[M 80[M#80[M 80[M#80[M 72[M#72[M 72[M#72[M"72[M#72[M!72[M#72
 cd wall
 open_with `
 touch wite
-open_with 
 st wite
 cd .config/openbox/rc.xml
 cd .config/openbox/
 open_with1
-open_with 1
 open_with q
 rename .wall
-open_with
 shell dots
 cd .config
 nvim
-delete
 search.config
 search .config
 search range
 rename scope.sh.bak
 
 find
+rename scope.sh
+open_wit
+q
+Q
+!q
+shell thunar
+open_with 1
+find sc
+find st
+find .bi
+find .confi
+find f
+find fil
+find me
+shell
+open_with
+find .wa
+search creio
+cd
+shell -w dh
+shell -w df
+search icons
+find them
+find icons
+open_with 
+open_with 4
+search .wall
+rename aliases.bak
+delete
