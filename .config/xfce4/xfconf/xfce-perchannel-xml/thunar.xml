@@ -24,5 +24,5 @@
   <property name="last-statusbar-visible" type="bool" value="false"/>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_16"/>
-  <property name="last-side-pane" type="string" value="void"/>
+  <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
 </channel>

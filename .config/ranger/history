@@ -43,8 +43,8 @@ shell -w df
 search icons
 find them
 find icons
-open_with 
 open_with 4
 search .wall
 rename aliases.bak
 delete
+open_with 
