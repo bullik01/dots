@@ -155,6 +155,7 @@
       <property name="&lt;Super&gt;s" type="string" value="show_desktop_key"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;Left" type="string" value="left_workspace_key"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;Right" type="string" value="right_workspace_key"/>
+      <property name="&lt;Super&gt;Down" type="string" value="tile_down_key"/>
     </property>
   </property>
   <property name="providers" type="array">

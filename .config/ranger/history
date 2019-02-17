@@ -1,3 +1,4 @@
+cd .config/neofetch/
 shell st
  st .
 [M#:0[M :0[M#:0[M 80[M#80[M 80[M#80[M 72[M#72[M 72[M#72[M"72[M#72[M!72[M#72
@@ -43,8 +44,6 @@ shell -w df
 search icons
 find them
 find icons
-open_with 4
-search .wall
-rename aliases.bak
-delete
 open_with 
+delete
+open_with 4
