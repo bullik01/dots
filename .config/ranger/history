@@ -45,5 +45,6 @@ search icons
 find them
 find icons
 open_with 
-delete
 open_with 4
+rename .xinitrc
+delete

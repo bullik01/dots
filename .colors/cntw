@@ -37,7 +37,7 @@
 *.color7:       #aaabad
 *.color15:      #b3bdcb
 
-! cn
+! cntw
 ! State:           ´bg´,     ´fg´,     ´bgalt´,  ´hlbg´,   ´hlfg´
 rofi.color-normal: #111113,  #b3bdcb,  #111113,  #111113,  #5a74ca
 rofi.color-urgent: #111113,  #b3bdcb,  #111113,  #111113,  #5a74ca

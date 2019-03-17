@@ -6,17 +6,17 @@ fi
 
 ZSH=/usr/share/oh-my-zsh/
 
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 # ZSH_THEME="oxide"
 # ZSH_THEME="refined"
-# ZSH_THEME="dracula"
+ZSH_THEME="af-magic"
 DISABLE_AUTO_UPDATE="true"
 plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   web-search
 )
-export PATH=$HOME/.bin:$HOME/.bin/popup:/usr/local/bin:$PATH
+export PATH=$HOME/.bin:$HOME/.bin/popup:$HOME/.local/bin:/usr/local/bin:$PATH
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
