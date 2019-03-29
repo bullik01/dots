@@ -18,7 +18,7 @@ sublime_colorscheme_light="Packages\\/Boxy Theme\\/schemes\\/Boxy Yesterday.tmTh
 PREF_DARK_THEME="lst"
 PREF_DARK_DECO="lst"
 PREF_DARK_BG="$HOME/.wall/wl.jpg"
-PREF_DARK_ICO="Papirus-Dark"
+PREF_DARK_ICO="Arc"
 
 sublime_theme_dark="Boxy Tomorrow"
 sublime_colorscheme_dark="Packages\\/User\\/lst.tmTheme"
@@ -28,7 +28,7 @@ sublime_colorscheme_dark="Packages\\/User\\/lst.tmTheme"
 xresources_conf="$HOME/.Xresources"
 
 xresources_color_light="colors\\/cltw"
-xresources_color_dark="colors\\/lst"
+xresources_color_dark="colors\\/cntw"
 
 
 de_theme="$(xfconf-query -c xsettings -p /Net/ThemeName)"

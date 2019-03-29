@@ -8,7 +8,7 @@ Xft.lcdfilter: lcddefault
 
 
 
-#include ".colors/lst"
+#include ".colors/cntw"
 
 !URxvt.font: xft:Iosevka Term:size=9:antialias=true
 

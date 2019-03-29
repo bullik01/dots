@@ -12,6 +12,7 @@ ZSH=/usr/share/oh-my-zsh/
 ZSH_THEME="af-magic"
 DISABLE_AUTO_UPDATE="true"
 plugins=(
+	fast-syntax-highlighting
   zsh-syntax-highlighting
   zsh-autosuggestions
   web-search

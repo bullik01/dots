@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:MPD pulse
 audio_device_state:1:MPD FIFO
 state: pause
-current: 23
-time: 3.722000
+current: 181
+time: 69.232000
 random: 0
 repeat: 0
 single: 0
@@ -114,4 +114,170 @@ playlist_begin
 99:Mix - Alina Baraz/Tinashe - No Drama (Official Video) ft. Offset.mp3
 100:Mix - Alina Baraz/Two Feet - I Feel Like I'm Drowning.mp3
 101:Mix - Alina Baraz/Yuna - Crush ft. Usher.mp3
+102:Rammstein - Essentials (2018)/01. Du hast.mp3
+103:Rammstein - Essentials (2018)/02. Sonne.mp3
+104:Rammstein - Essentials (2018)/03. Amerika.mp3
+105:Rammstein - Essentials (2018)/04. Engel.mp3
+106:Rammstein - Essentials (2018)/05. Feuer Frei!.mp3
+107:Rammstein - Essentials (2018)/06. Bueck dich.mp3
+108:Rammstein - Essentials (2018)/07. Rammstein.mp3
+109:Rammstein - Essentials (2018)/08. Mein Teil.mp3
+110:Rammstein - Essentials (2018)/09. Rosenrot.mp3
+111:Rammstein - Essentials (2018)/10. Ich Will.mp3
+112:Rammstein - Essentials (2018)/11. Keine Lust.mp3
+113:Rammstein - Essentials (2018)/12. Sehnsucht.mp3
+114:Rammstein - Essentials (2018)/13. Mutter.mp3
+115:Rammstein - Essentials (2018)/14. Du riechst so gut.mp3
+116:Rammstein - Essentials (2018)/15. Mein Herz Brennt.mp3
+117:Rammstein - Essentials (2018)/16. Mein Land.mp3
+118:Rammstein - Essentials (2018)/17. Links 2 3 4.mp3
+119:Rammstein - Essentials (2018)/18. Pussy.mp3
+120:Rammstein - Essentials (2018)/19. Te Quiero Puta!.mp3
+121:Rammstein - Essentials (2018)/20. Haifisch.mp3
+122:Rammstein - Essentials (2018)/21. Benzin.mp3
+123:Rammstein - Essentials (2018)/22. Klavier.mp3
+124:Rammstein - Essentials (2018)/23. Asche zu Asche.mp3
+125:Rammstein - Essentials (2018)/24. Ich Tu Dir Weh.mp3
+126:Rammstein - Essentials (2018)/25. Reise, Reise.mp3
+127:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/01. Born to Touch Your Feelings (Studio Edit).mp3
+128:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/02. Still Loving You.mp3
+129:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/03. Wind of Change.mp3
+130:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/04. Always Somewhere.mp3
+131:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/05. Send Me an Angel (Acoustic Version 2017).mp3
+132:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/06. Holiday.mp3
+133:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/07. Eye of the Storm (Radio Edit).mp3
+134:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/08. When The Smoke Is Going Down.mp3
+135:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/09. Lonely Nights.mp3
+136:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/10. Gypsy Life.mp3
+137:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/11. House of Cards (Single Edit).mp3
+138:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/12. The Best Is Yet to Come.mp3
+139:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/13. When You Came into My Life (Studio Edit).mp3
+140:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/14. Lady Starlight.mp3
+141:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/15. Follow Your Heart.mp3
+142:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/16. Melrose Avenue.mp3
+143:Scorpions - Born to Touch Your Feelings. Best of Rock Ballads (2017)/17. Always Be with You.mp3
+144:The Glass Child (Official Music Videos)/Another Vagabond Lost To Love [Book Trailer] by Charlotte Eriksson.mp3
+145:The Glass Child (Official Music Videos)/Best Part Of Me - The Glass Child (EP Version).mp3
+146:The Glass Child (Official Music Videos)/Black Rose _ The Glass Child [This Silence Now].mp3
+147:The Glass Child (Official Music Videos)/Blood On The Concrete - The Glass Child.mp3
+148:The Glass Child (Official Music Videos)/Broadripple Is Burning - The Glass Child [This Silence Now].mp3
+149:The Glass Child (Official Music Videos)/COMING HOME _ The Glass Child [Lyric Video].mp3
+150:The Glass Child (Official Music Videos)/Consumed By You - The Glass Child (from the NEW ALBUM I'd Like To Remain A Mystery).mp3
+151:The Glass Child (Official Music Videos)/Creepy Little Story (Album Version) - The Glass Child (from I'd Like To Remain A Mystery).mp3
+152:The Glass Child (Official Music Videos)/Dark Love - The Glass Child [Under Northern Skies].mp3
+153:The Glass Child (Official Music Videos)/Follow The River - The Glass Child [Coming Home EP].mp3
+154:The Glass Child (Official Music Videos)/Give Myself Away - The Glass Child.mp3
+155:The Glass Child (Official Music Videos)/HEROES - The Glass Child.mp3
+156:The Glass Child (Official Music Videos)/Hit The Ground - The Glass Child [I'd Like to Remains A Mystery].mp3
+157:The Glass Child (Official Music Videos)/Hold On (Acoustic Version) - The Glass Child.mp3
+158:The Glass Child (Official Music Videos)/Hypnic Jerk - The Glass Child.mp3
+159:The Glass Child (Official Music Videos)/I Will Be Ok - The Glass Child.mp3
+160:The Glass Child (Official Music Videos)/I Will Lead You Home (Charity-single for Ung Cancer) - The Glass Child.mp3
+161:The Glass Child (Official Music Videos)/I Will Lead You Home (Ung Cancer) - The Glass Child ALBUM VERSION.mp3
+162:The Glass Child (Official Music Videos)/I'd Like To Remain A Mystery - The Glass Child [Official Lyric Video].mp3
+163:The Glass Child (Official Music Videos)/I'll Be There For You - The Glass Child.mp3
+164:The Glass Child (Official Music Videos)/I'll Never Tell - The Glass Child feat. Francesco Cara & Enza Cara (Official Music Video).mp3
+165:The Glass Child (Official Music Videos)/Insanity - The Glass Child (Official Music Video).mp3
+166:The Glass Child (Official Music Videos)/Insanity - The Glass Child.mp3
+167:The Glass Child (Official Music Videos)/Insomnia - The Glass Child.mp3
+168:The Glass Child (Official Music Videos)/Leaving and never coming back - The Glass Child.mp3
+169:The Glass Child (Official Music Videos)/Letdown - The Glass Child.mp3
+170:The Glass Child (Official Music Videos)/Letdown (Album Version) - The Glass Child (from I'd Like To Remain A Mystery).mp3
+171:The Glass Child (Official Music Videos)/Lonely In This Love - The Glass Child [Under Northern Skies].mp3
+172:The Glass Child (Official Music Videos)/Lover I Don't Have To Love - The Glass Child (Bright Eyes).mp3
+173:The Glass Child (Official Music Videos)/Oceans - The Glass Child [I'd Like To Remain A Mystery].mp3
+174:The Glass Child (Official Music Videos)/Oceans (Acoustic) - The Glass Child.mp3
+175:The Glass Child (Official Music Videos)/Om Mani Padme Hum - The Glass Child [Official Lyric Video].mp3
+176:The Glass Child (Official Music Videos)/Same Skies (Stripped) - The Glass Child.mp3
+177:The Glass Child (Official Music Videos)/Save Me - The Glass Child [Under Northern Skies].mp3
+178:The Glass Child (Official Music Videos)/Silent Night - The Glass Child (from Broken Little Winter EP).mp3
+179:The Glass Child (Official Music Videos)/SISTER _ The Glass Child [This Silence Now].mp3
+180:The Glass Child (Official Music Videos)/Somewhere I Belong - The Glass Child.mp3
+181:The Glass Child (Official Music Videos)/Stay - The Glass Child [Official Lyric Video].mp3
+182:The Glass Child (Official Music Videos)/Stuck In My Mind (Album Version) - The Glass Child (from I'd Like To Remain A Mystery).mp3
+183:The Glass Child (Official Music Videos)/Stuck In My Mind [EP Version] - The Glass Child.mp3
+184:The Glass Child (Official Music Videos)/Stuck in Standby _ The Glass Child.mp3
+185:The Glass Child (Official Music Videos)/Tell The World - The Glass Child.mp3
+186:The Glass Child (Official Music Videos)/Tell The World (Acoustic) - The Glass Child.mp3
+187:The Glass Child (Official Music Videos)/The Fall - The Glass Child [Official Lyric Video].mp3
+188:The Glass Child (Official Music Videos)/The Glass Child - White Spaces.mp3
+189:The Glass Child (Official Music Videos)/The Haunted - The Glass Child (from I'd Like To Remain A Mystery).mp3
+190:The Glass Child (Official Music Videos)/The Year I Disappeared - The Glass Child [Official Music Video].mp3
+191:The Glass Child (Official Music Videos)/This Lonely Town - The Glass Child.mp3
+192:The Glass Child (Official Music Videos)/Time Tore Us Apart - The Glass Child.mp3
+193:The Glass Child (Official Music Videos)/Time, It Goes - The Glass Child [This Silence Now].mp3
+194:The Glass Child (Official Music Videos)/WHITE SPACES _ The Glass Child [Lyric Video].mp3
+195:The Glass Child (Official Music Videos)/WHO AM I - The Glass Child [Official Lyric Video].mp3
+196:The Glass Child (Official Music Videos)/Who Am I - The Glass Child [Single Version].mp3
+197:The Glass Child (Official Music Videos)/Winter Girls - The Glass Child.mp3
+198:The Glass Child (Official Music Videos)/Winter In Her Mind - The Glass Child.mp3
+199:The Glass Child (Official Music Videos)/Yesterday - The Glass Child [Official Music Video].mp3
+200:Top Tracks - Led Zeppelin/Babe I'm Gonna Leave You - Led Zeppelin.mp3
+201:Top Tracks - Led Zeppelin/Bonzo's montreux.mp3
+202:Top Tracks - Led Zeppelin/For Your Life LedZeppelin.mp3
+203:Top Tracks - Led Zeppelin/Friends- Led Zeppelin Lyrics.mp3
+204:Top Tracks - Led Zeppelin/Going to California - Led Zeppelin (with lyrics).mp3
+205:Top Tracks - Led Zeppelin/La La - Unreleased 1969 Led Zeppelin.mp3
+206:Top Tracks - Led Zeppelin/Led Zeppelin   Darlene.mp3
+207:Top Tracks - Led Zeppelin/Led Zeppelin   Out On The Tiles.mp3
+208:Top Tracks - Led Zeppelin/Led Zeppelin  - Live in Pittsburgh 1973 - Rare film.mp3
+209:Top Tracks - Led Zeppelin/Led Zeppelin -  Stairway to Heaven Live.mp3
+210:Top Tracks - Led Zeppelin/Led Zeppelin - 'What Is And What Should Never Be' [Official Music Video].mp3
+211:Top Tracks - Led Zeppelin/Led Zeppelin - Achilles Last Stand (LA 1977).mp3
+212:Top Tracks - Led Zeppelin/Led Zeppelin - All of My Love.mp3
+213:Top Tracks - Led Zeppelin/Led Zeppelin - Baby Come On Home (Rare).mp3
+214:Top Tracks - Led Zeppelin/Led Zeppelin - Battle of Evermore.mp3
+215:Top Tracks - Led Zeppelin/Led Zeppelin - Candy Store Rock.mp3
+216:Top Tracks - Led Zeppelin/LED ZEPPELIN - CD3 02 Sick Again (Early Version).mp3
+217:Top Tracks - Led Zeppelin/Led Zeppelin - Celebration Day.mp3
+218:Top Tracks - Led Zeppelin/Led Zeppelin - Custard Pie ( Remastered ) [ Lyrics ].mp3
+219:Top Tracks - Led Zeppelin/Led Zeppelin - D'yer Maker HD (sub español english).mp3
+220:Top Tracks - Led Zeppelin/Led Zeppelin - Dazed and Confused (Supershow 1969).mp3
+221:Top Tracks - Led Zeppelin/Led Zeppelin - Desire (The Wanton Song) (Rough Mix) 2015 Deluxe Edition.mp3
+222:Top Tracks - Led Zeppelin/Led Zeppelin - Four Sticks.mp3
+223:Top Tracks - Led Zeppelin/Led Zeppelin - Heartbreaker Studio Version (Not 0_00).mp3
+224:Top Tracks - Led Zeppelin/led zeppelin - Hot Dog - In Through the Out Door.mp3
+225:Top Tracks - Led Zeppelin/Led Zeppelin - How Many More Times (Danish TV 1969).mp3
+226:Top Tracks - Led Zeppelin/Led Zeppelin - How The West Was Won - Dancing Days.mp3
+227:Top Tracks - Led Zeppelin/Led Zeppelin - I Can't Quit You Baby.mp3
+228:Top Tracks - Led Zeppelin/Led Zeppelin - I'm Gonna Crawl.mp3
+229:Top Tracks - Led Zeppelin/Led Zeppelin - Immigrant Song (Live 1972).mp3
+230:Top Tracks - Led Zeppelin/Led Zeppelin - In My Time of Dying.mp3
+231:Top Tracks - Led Zeppelin/Led Zeppelin - In The Evening ( Remastered ).mp3
+232:Top Tracks - Led Zeppelin/Led Zeppelin - Kashmir - Celebration Day.mp3
+233:Top Tracks - Led Zeppelin/Led Zeppelin - Living Loving Maid (She's Just a Woman) (HQ).mp3
+234:Top Tracks - Led Zeppelin/Led Zeppelin - Night Flight (Better Version).mp3
+235:Top Tracks - Led Zeppelin/Led Zeppelin - No Quarter (Madison Square Garden 1973).mp3
+236:Top Tracks - Led Zeppelin/Led Zeppelin - Nobody's Fault but Mine.mp3
+237:Top Tracks - Led Zeppelin/Led Zeppelin - Over the Hills and Far Away (Promo Video).mp3
+238:Top Tracks - Led Zeppelin/Led Zeppelin - Ramble On (Official Remastered Audio).mp3
+239:Top Tracks - Led Zeppelin/Led Zeppelin - Royal Orleans.mp3
+240:Top Tracks - Led Zeppelin/Led Zeppelin - Sugar Mama.mp3
+241:Top Tracks - Led Zeppelin/Led Zeppelin - Sunshine Woman rare BBC.mp3
+242:Top Tracks - Led Zeppelin/Led Zeppelin - Thank You.mp3
+243:Top Tracks - Led Zeppelin/Led Zeppelin - That's The Way (HD).mp3
+244:Top Tracks - Led Zeppelin/Led Zeppelin - The Lemon Song.mp3
+245:Top Tracks - Led Zeppelin/Led Zeppelin - The Rain Song (2014 Remaster).mp3
+246:Top Tracks - Led Zeppelin/Led Zeppelin - The Rover.mp3
+247:Top Tracks - Led Zeppelin/Led Zeppelin - Travelling Riverside Blues (promo video).mp3
+248:Top Tracks - Led Zeppelin/Led Zeppelin - Walter's Walk.mp3
+249:Top Tracks - Led Zeppelin/Led Zeppelin - Whole Lotta Love (1997 Promo).mp3
+250:Top Tracks - Led Zeppelin/Led Zeppelin - Your Time Is Gonna Come.mp3
+251:Top Tracks - Led Zeppelin/Led Zeppelin — Bring It On Home (Rough Mix).mp3
+252:Top Tracks - Led Zeppelin/Led Zeppelin — Gallows Pole (Rough Mix).mp3
+253:Top Tracks - Led Zeppelin/Led Zeppelin — White Summer_Black Mountain Side (Live in Paris, 1969).mp3
+254:Top Tracks - Led Zeppelin/LED ZEPPELIN '10 Ribs & All_Carrot Pod Pod (Pod)'.mp3
+255:Top Tracks - Led Zeppelin/Led Zeppelin perform Rock and Roll Hall of Fame inductions 1995.mp3
+256:Top Tracks - Led Zeppelin/Led Zeppelin- Bron-Yr-Aur Stomp.mp3
+257:Top Tracks - Led Zeppelin/Led Zeppelin- Good Times And Bad Times.mp3
+258:Top Tracks - Led Zeppelin/Led Zeppelin- Hey Hey What Can I Do Lyrics.mp3
+259:Top Tracks - Led Zeppelin/Led Zeppelin-Carouselambra.mp3
+260:Top Tracks - Led Zeppelin/Led Zeppelin-Hots on for Nowhere.mp3
+261:Top Tracks - Led Zeppelin/Led Zeppelin-In the Light.mp3
+262:Top Tracks - Led Zeppelin/Led Zeppelin-Since I've Been Loving You w_ lyrics.mp3
+263:Top Tracks - Led Zeppelin/St. Tristan's Sword (Rough Mix)- Led Zeppelin.mp3
+264:Top Tracks - Led Zeppelin/Ten Years Gone - Led Zeppelin - Remastered.mp3
+265:Top Tracks - Led Zeppelin/Trampled Under Foot-Led Zeppelin.mp3
+266:Top Tracks - Led Zeppelin/Wearing and Tearing-Led Zeppelin.mp3
+267:Top Tracks - Led Zeppelin/You Shook Me - Led Zeppelin (live Paris 1969-10-10).mp3
 playlist_end
