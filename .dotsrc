@@ -56,6 +56,7 @@ USER_PATHS=(
 ".config/termite"
 ".config/Thunar"
 ".config/tint2"
+".config/kitty"
 ".config/volumeicon"
 ".config/xfce4"
 ".config/youtube-viewer"

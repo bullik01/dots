@@ -28,7 +28,7 @@ sublime_colorscheme_dark="Packages\\/User\\/lst.tmTheme"
 xresources_conf="$HOME/.Xresources"
 
 xresources_color_light="colors\\/cltw"
-xresources_color_dark="colors\\/cntw"
+xresources_color_dark="colors\\/ll"
 
 
 de_theme="$(xfconf-query -c xsettings -p /Net/ThemeName)"
