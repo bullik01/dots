@@ -9,7 +9,7 @@ qt_conf="$HOME/.config/qt5ct/qt5ct.conf"
 PREF_LIGHT_THEME="cltw"
 PREF_LIGHT_DECO="cltw"
 PREF_LIGHT_BG="$HOME/.wall/wl1.jpg"
-PREF_LIGHT_ICO="Papirus"
+PREF_LIGHT_ICO="Newaita"
 
 sublime_theme_light="Boxy Yesterday"
 sublime_colorscheme_light="Packages\\/Boxy Theme\\/schemes\\/Boxy Yesterday.tmTheme"
@@ -18,7 +18,7 @@ sublime_colorscheme_light="Packages\\/Boxy Theme\\/schemes\\/Boxy Yesterday.tmTh
 PREF_DARK_THEME="lst"
 PREF_DARK_DECO="lst"
 PREF_DARK_BG="$HOME/.wall/wl.jpg"
-PREF_DARK_ICO="Arc"
+PREF_DARK_ICO="Newaita-dark"
 
 sublime_theme_dark="Boxy Tomorrow"
 sublime_colorscheme_dark="Packages\\/User\\/lst.tmTheme"
@@ -27,8 +27,8 @@ sublime_colorscheme_dark="Packages\\/User\\/lst.tmTheme"
 # Xresources color theme ~/.colors
 xresources_conf="$HOME/.Xresources"
 
-xresources_color_light="colors\\/cltw"
-xresources_color_dark="colors\\/ll"
+xresources_color_light="colors\\/ll"
+xresources_color_dark="colors\\/ln"
 
 
 de_theme="$(xfconf-query -c xsettings -p /Net/ThemeName)"
