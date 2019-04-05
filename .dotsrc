@@ -32,6 +32,7 @@ USER_PATHS=(
 ".config/cava"
 ".config/cherrytree"
 ".config/clipit"
+".config/conky"
 ".config/dconf"
 ".config/dunst"
 ".config/fontconfig"
