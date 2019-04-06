@@ -33,12 +33,15 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-visible" type="array">
         <value type="string" value="caffeine"/>
+        <value type="string" value="nxclient.bin"/>
         <value type="string" value="clipit"/>
+        <value type="string" value="flameshot"/>
         <value type="string" value="redshift-gtk"/>
         <value type="string" value="volumeicon"/>
         <value type="string" value="megasync"/>
-        <value type="string" value="telegram-desktop"/>
         <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="telegram-desktop"/>
+        <value type="string" value="discord"/>
         <value type="string" value="апплет networkmanager"/>
       </property>
     </property>

@@ -92,8 +92,7 @@ alias ctliso="cd ~/files/github/ctlosiso"
 gc () {
 	git clone "$1"
 }
-gcj () {
-	g
+function gcj () {
 	git clone "$1"
 	cd "$2"
 	$EDITOR .
@@ -177,6 +176,8 @@ alias th="thunar . &"
 alias na="nautilus . &"
 alias sna="sudo nautilus ."
 alias h="htop"
+alias vim="nvim"
+alias vi="nvim"
 
 alias packey="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys && sudo pacman -Syy"
 alias sp="sudo pacman -S"
